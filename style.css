@@ -1,0 +1,374 @@
+html
+{
+	background-image: url("spikes.png");
+	background-repeat: inherit;
+	font-family: 'Major Mono Display', monospace;
+}
+h1
+{
+	font-family: 'Major Mono Display', monospace;
+	font-size:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:white;
+	background-image: url("maze.png");
+	background-repeat: inherit;		
+}
+h2
+{
+
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+	color: #878787;
+}
+article
+{
+
+	font-size: 20px;
+}
+#container
+{
+	width:1500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#taco1
+{
+	float:left;
+}
+#taco2
+{
+	float:left;
+}
+#kafelek
+{
+	background-image: url("maze.png");
+	color:white;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+#kafelek:hover
+{
+	background-image: url("maze1.png");
+	color:black;
+	opacity:0.9;
+}
+.kafelek1
+{
+	background-color:#d4fcb6;
+	color:black;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek2
+{
+	background-color: #3e9c57;
+	color:#f5fca4;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek3
+{
+	background-color: #6ec7db;
+	color:#632411;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek4
+{
+	background-color: #7300ba;
+	color:#d752ff;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek5
+{
+	background-color: #1c001c;
+	color:#de0bde;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek6
+{
+	background-color: #5c2e06;
+	color:#dba87b;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek7
+{
+	background-color: #da22e0;
+	color:#fbccff;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek8
+{
+	background-color:#020f24;
+	color:#fa69e9;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek9
+{
+	background-color:#020f24;
+	color:#fa69e9;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek10
+{
+	background-color: #0e043d;
+	color:#18ebf2;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek11
+{
+	background-color: #a3216f;
+	color:#baadff;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek12
+{
+	background-color: #fcc603;
+	color:blue;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+.kafelek1:hover
+{
+	background-color:black;
+	color:#d4fcb6;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek2:hover
+{
+	background-color: #f5fca4;
+	color:#3e9c57;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek3:hover
+{
+	background-color: #632411;
+	color:#6ec7db;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek4:hover
+{
+	background-color:#d752ff;
+	color:#7300ba;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek5:hover
+{
+	background-color: #de0bde;
+	color:#1c001c;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek6:hover
+{
+	background-color: #dba87b;
+	color:#5c2e06;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek7:hover
+{
+	background-color: #fbccff;
+	color:#da22e0;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek8:hover
+{
+	background-color:#fa69e9;
+	color:#020f24;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek9:hover
+{
+	background-color:#fa69e9;
+	color:#020f24;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek10:hover
+{
+	background-color: #18ebf2;
+	color:#0e043d;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek11:hover
+{
+	background-color: #baadff;
+	color:#a3216f;
+	opacity:0.9;transition: 0.4s;
+}
+.kafelek12:hover
+{
+	background-color:#13007d;
+	color:#fcc603;
+	opacity:0.9;transition: 0.4s;
+}
+a
+{
+	text-decoration:none;
+}
+#kafel1:hover
+{
+	background-image: url("kafel1.png");
+	color:black;
+	transition: 0.3s;
+}
+#kafel1
+{
+	background-image: url("maze.png");
+	color:white;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+#kafel2:hover
+{
+	background-image: url("kafel2.png");
+	color:black;
+	transition: 0.3s;
+}
+#kafel2
+{
+	background-image: url("maze.png");
+	color:white;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+#kafel3:hover
+{
+	background-image: url("kafel3.png");
+	color:black;
+	transition: 0.3s;
+}
+#kafel3
+{
+	background-image: url("maze.png");
+	color:white;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
+#kafel4:hover
+{
+	background-image: url("kafel4.png");
+	color:black;
+	transition: 0.3s;
+}
+#kafel4
+{
+	background-image: url("maze.png");
+	color:white;
+	width:200px;
+	height:200px;
+	margin-left:90;
+	margin-right:30;
+	text-align: center;
+	padding:20px;
+	float:left;
+	margin-bottom:90px;
+}
